@@ -202,8 +202,6 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
-    <Content Include="App_Data\people.json" />
-    <Content Include="App_Data\show.json" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -263,14 +261,6 @@
     <ProjectReference Include="..\CapaDatos\CapaDatos.csproj">
       <Project>{1ebd4d48-6850-4a9d-8889-f2a08c650385}</Project>
       <Name>CapaDatos</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\CapaNegocio\CapaNegocio.csproj">
-      <Project>{61ca647e-cce3-4c84-a1bd-469eabec2638}</Project>
-      <Name>CapaNegocio</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\CapaServicios\CapaServicios.csproj">
-      <Project>{148ade56-0720-4cf4-b7e4-334169e4364e}</Project>
-      <Name>CapaServicios</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

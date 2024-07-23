@@ -1,4 +1,5 @@
-﻿using CapaNegocio;
+﻿using CapaDatos.Models;
+using CapaNegocio;
 using Newtonsoft.Json;
 using System;
 using System.Collections;
@@ -19,9 +20,9 @@ namespace tvmaze.Controllers
             _tvmazeBl = new ShowBL();
         }
 
-        public IHttpActionResult Get()
+        public IEnumerable<Show> Get()
         {
-            return Ok(_tvmazeBl.ObtenerShows());
+            return _tvmazeBl.ObtenerShows().ToArray();
         }
 
         public IHttpActionResult Get(int id)

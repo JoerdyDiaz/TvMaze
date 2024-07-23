@@ -1,17 +1,11 @@
-﻿using CapaDatos.Models;
-//using CapaDatos.AdoModelEF;
-using CapaDatos.Context;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
+using CapaDatos.Models;
+using CapaDatos.ModelsExtented;
 using System;
 using System.Collections.Generic;
-using System.Data.Entity.Migrations;
 using System.Linq;
-using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
-using System.Collections;
-using CapaDatos.ModelsExtented;
-using System.Configuration;
 
 namespace CapaServicios
 {
@@ -19,7 +13,7 @@ namespace CapaServicios
     {
         private readonly HttpClient _httpClient;
 
-        private readonly string url = ConfigurationManager.AppSettings["UrlApiTvMaze"];
+        private readonly string url = "http://api.tvmaze.com/"; // ConfigurationManager.AppSettings["UrlApiTvMaze"];
         public TvMazePeopleService()
         {
             _httpClient = new HttpClient { BaseAddress = new Uri(url) };
@@ -38,7 +32,7 @@ namespace CapaServicios
             catch (Exception ex)
             {
                 return null;
-            }       
+            }
         }
     }
 }
