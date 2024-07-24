@@ -1,6 +1,7 @@
 ﻿using CapaDatos.Models;
 using CapaDatos.ModelsExtented;
 using Microsoft.AspNetCore.Hosting;
+using CapaServicios;
 
 namespace CapaNegocio
 {
@@ -12,6 +13,28 @@ namespace CapaNegocio
         public ShowBL(IHostingEnvironment env)
         {
             _env = env;
+
+        }
+
+        public async Task ActualizarTvShowsAsync()
+        {
+            TvMazeShowService _tvMazeService = new TvMazeShowService();
+            try
+            {
+                List<Show> tvShows = await _tvMazeService.ObtenerTvShowsAsync();
+                if (tvShows != null && tvShows.Count > 0)
+                {
+                    LimpiarLista();
+                    foreach (var show in tvShows)
+                    {
+                        Agregar(show);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
         }
         public List<Show> ObtenerShows()
         {

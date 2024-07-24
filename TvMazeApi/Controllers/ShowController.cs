@@ -1,12 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using CapaDatos.Models;
 using CapaNegocio;
+using TvMazeApi.FilterAuthorization;
 
 
 namespace TvMazeApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    //[ApiKeyRequired]
     public class ShowController : ControllerBase
     {
         public readonly ShowBL _showBL ;

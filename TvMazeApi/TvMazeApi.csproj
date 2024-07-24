@@ -7,6 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Controllers\WeatherForecastController.cs" />
+    <Compile Remove="FilterAuthorization\ApiKeyAuthFilter.cs" />
+    <Compile Remove="WeatherForecast.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
     <PackageReference Include="Symbol.Cloud.Server.Kestrel" Version="1.2.1.6" />
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="8.0.0" />
