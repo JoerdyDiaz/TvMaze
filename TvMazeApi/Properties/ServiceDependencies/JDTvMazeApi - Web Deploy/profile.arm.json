@@ -7,21 +7,21 @@
   "parameters": {
     "resourceGroupName": {
       "type": "string",
-      "defaultValue": "DefaultResourceGroup-ESC",
+      "defaultValue": "DefaultResourceGroup-EUS",
       "metadata": {
         "description": "Name of the resource group for the resource. It is recommended to put resources under same resource group for better tracking."
       }
     },
     "resourceGroupLocation": {
       "type": "string",
-      "defaultValue": "spaincentral",
+      "defaultValue": "eastus",
       "metadata": {
         "description": "Location of the resource group. Resource groups could have different location than resources, however by default we use API versions from latest hybrid profile which support all locations for resource types we support."
       }
     },
     "resourceName": {
       "type": "string",
-      "defaultValue": "tvmaze20240723163733",
+      "defaultValue": "JDTvMazeApi",
       "metadata": {
         "description": "Name of the main resource to be created by this template."
       }
