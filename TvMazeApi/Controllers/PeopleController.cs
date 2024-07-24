@@ -32,5 +32,11 @@ namespace TvMazeApi.Controllers
         {
             return peopleBL.ObtenerPeopleById(id);
         }
+
+        [HttpGet("Delete/{id}")]
+        public bool Delete(int id)
+        {
+            return peopleBL.BorrarPeopleByID(id);
+        }
     }
 }

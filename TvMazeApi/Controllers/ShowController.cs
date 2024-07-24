@@ -31,5 +31,11 @@ namespace TvMazeApi.Controllers
         {
             return  _showBL.ObtenerShowByID(id);
         }
+
+        [HttpGet("Delete/{id}")]
+        public bool Delete(int id)
+        {
+            return _showBL.BorrarShowByID(id);
+        }
     }
 }
