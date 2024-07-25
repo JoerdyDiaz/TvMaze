@@ -9,10 +9,10 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 
-// Clave API para validación
+// Clave API para validaciï¿½n
 //var apiKey = "TvMaze*!$";
 
-// Añadir el filtro al contenedor de dependencias
+// Aï¿½adir el filtro al contenedor de dependencias
 //builder.Services.AddScoped<ApiKeyAuthFilter>(provider => new ApiKeyAuthFilter(apiKey));
 
 builder.Services.AddControllers();
@@ -77,7 +77,7 @@ app.UseSwaggerUI(c =>
 });
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
