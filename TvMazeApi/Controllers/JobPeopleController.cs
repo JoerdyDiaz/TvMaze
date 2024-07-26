@@ -20,7 +20,7 @@ namespace TvMazeApi.Controllers
             _peopleBL = new PeopleBL(env);
         }
 
-        [HttpPut]
+        [HttpGet]
         public async Task<IActionResult> Get()
         {
             await _peopleBL.ActualizarPeoplesync();

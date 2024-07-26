@@ -123,7 +123,7 @@
     "rating": {
       "average": 7.4
     },
-    "weight": 97,
+    "weight": 98,
     "network": {
       "id": 7,
       "name": "CTV Sci-Fi Channel",
@@ -172,7 +172,7 @@
     "rating": {
       "average": 7.4
     },
-    "weight": 98,
+    "weight": 99,
     "network": {
       "id": 5,
       "name": "The CW",
@@ -319,7 +319,7 @@
     "rating": {
       "average": 8.2
     },
-    "weight": 97,
+    "weight": 96,
     "network": {
       "id": 9,
       "name": "Showtime",
@@ -368,7 +368,7 @@
     "rating": {
       "average": 6.5
     },
-    "weight": 95,
+    "weight": 96,
     "network": {
       "id": 4,
       "name": "FOX",
@@ -417,7 +417,7 @@
     "rating": {
       "average": 7.7
     },
-    "weight": 95,
+    "weight": 94,
     "network": {
       "id": 3,
       "name": "ABC",
@@ -515,7 +515,7 @@
     "rating": {
       "average": 7.8
     },
-    "weight": 99,
+    "weight": 98,
     "network": {
       "id": 4,
       "name": "FOX",
@@ -662,7 +662,7 @@
     "rating": {
       "average": 8.0
     },
-    "weight": 97,
+    "weight": 98,
     "network": {
       "id": 6,
       "name": "Showcase",
@@ -760,7 +760,7 @@
     "rating": {
       "average": 8.3
     },
-    "weight": 96,
+    "weight": 94,
     "network": {
       "id": 9,
       "name": "Showtime",
@@ -830,7 +830,7 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/508/1271001.jpg"
     },
     "summary": "<p>From athletes and actors to tattoo artists, social workers and musicians - a diverse mix of teams will need to utilize their street smarts and savvy know-how to compete in the race of their lifetime.</p>",
-    "updated": 1721676454
+    "updated": 1721847499
   },
   {
     "id": 19,
@@ -907,7 +907,7 @@
     "rating": {
       "average": 7.4
     },
-    "weight": 96,
+    "weight": 97,
     "network": {
       "id": 13,
       "name": "FX",
@@ -1152,7 +1152,7 @@
     "rating": {
       "average": 7.3
     },
-    "weight": 88,
+    "weight": 84,
     "network": {
       "id": 131,
       "name": "Fuji TV",
@@ -1251,7 +1251,7 @@
     "rating": {
       "average": 8.1
     },
-    "weight": 88,
+    "weight": 79,
     "network": {
       "id": 137,
       "name": "NTV",
@@ -1446,7 +1446,7 @@
     "rating": {
       "average": 8.0
     },
-    "weight": 97,
+    "weight": 98,
     "network": {
       "id": 3,
       "name": "ABC",
@@ -1680,7 +1680,7 @@
     "rating": {
       "average": 7.0
     },
-    "weight": 90,
+    "weight": 70,
     "network": {
       "id": 15,
       "name": "BBC America",
@@ -1729,7 +1729,7 @@
     "rating": {
       "average": 7.2
     },
-    "weight": 94,
+    "weight": 96,
     "network": {
       "id": 16,
       "name": "Syfy",
@@ -1778,7 +1778,7 @@
     "rating": {
       "average": 7.1
     },
-    "weight": 88,
+    "weight": 70,
     "network": {
       "id": 3,
       "name": "ABC",
@@ -1876,7 +1876,7 @@
     "rating": {
       "average": 7.8
     },
-    "weight": 93,
+    "weight": 91,
     "network": {
       "id": 4,
       "name": "FOX",
@@ -1925,7 +1925,7 @@
     "rating": {
       "average": 7.5
     },
-    "weight": 97,
+    "weight": 98,
     "network": {
       "id": 4,
       "name": "FOX",
@@ -2120,7 +2120,7 @@
     "rating": {
       "average": 8.1
     },
-    "weight": 88,
+    "weight": 93,
     "network": {
       "id": 3,
       "name": "ABC",
@@ -2216,7 +2216,7 @@
     "rating": {
       "average": 7.7
     },
-    "weight": 96,
+    "weight": 95,
     "network": {
       "id": 2,
       "name": "CBS",
@@ -2265,7 +2265,7 @@
     "rating": {
       "average": 8.1
     },
-    "weight": 97,
+    "weight": 98,
     "network": {
       "id": 1,
       "name": "NBC",
@@ -2314,7 +2314,7 @@
     "rating": {
       "average": 6.5
     },
-    "weight": 86,
+    "weight": 89,
     "network": {
       "id": 18,
       "name": "Lifetime",
@@ -2557,7 +2557,7 @@
     "rating": {
       "average": 7.7
     },
-    "weight": 76,
+    "weight": 48,
     "network": {
       "id": 4,
       "name": "FOX",
@@ -2653,7 +2653,7 @@
     "rating": {
       "average": 6.0
     },
-    "weight": 95,
+    "weight": 91,
     "network": {
       "id": 3,
       "name": "ABC",
@@ -2896,7 +2896,7 @@
     "rating": {
       "average": 8.2
     },
-    "weight": 98,
+    "weight": 99,
     "network": {
       "id": 5,
       "name": "The CW",
@@ -3468,7 +3468,7 @@
     "rating": {
       "average": 8.2
     },
-    "weight": 96,
+    "weight": 95,
     "network": {
       "id": 20,
       "name": "AMC",
@@ -3517,7 +3517,7 @@
     "rating": {
       "average": 7.0
     },
-    "weight": 77,
+    "weight": 76,
     "network": null,
     "externals": {
       "tvrage": 31682,
@@ -3605,7 +3605,7 @@
     "rating": {
       "average": 8.1
     },
-    "weight": 91,
+    "weight": 89,
     "network": {
       "id": 3,
       "name": "ABC",
@@ -3653,7 +3653,7 @@
     "rating": {
       "average": 7.3
     },
-    "weight": 92,
+    "weight": 91,
     "network": {
       "id": 1,
       "name": "NBC",
@@ -3749,7 +3749,7 @@
     "rating": {
       "average": 7.7
     },
-    "weight": 97,
+    "weight": 98,
     "network": {
       "id": 3,
       "name": "ABC",
@@ -3810,7 +3810,7 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/501/1253961.jpg"
     },
     "summary": "<p><b>Criminal Minds</b> revolves around an elite team of FBI profilers who analyze the country's most twisted criminal minds, anticipating their next moves before they strike again.</p>",
-    "updated": 1721438052
+    "updated": 1721905217
   },
   {
     "id": 82,
@@ -3886,7 +3886,7 @@
     "rating": {
       "average": 8.1
     },
-    "weight": 100,
+    "weight": 99,
     "network": {
       "id": 4,
       "name": "FOX",
@@ -3982,7 +3982,7 @@
     "rating": {
       "average": 7.3
     },
-    "weight": 91,
+    "weight": 92,
     "network": {
       "id": 2,
       "name": "CBS",
@@ -4080,7 +4080,7 @@
     "rating": {
       "average": 7.5
     },
-    "weight": 93,
+    "weight": 92,
     "network": {
       "id": 5,
       "name": "The CW",
@@ -4225,7 +4225,7 @@
     "rating": {
       "average": 7.4
     },
-    "weight": 75,
+    "weight": 78,
     "network": {
       "id": 1,
       "name": "NBC",
@@ -4322,7 +4322,7 @@
     "rating": {
       "average": 8.0
     },
-    "weight": 88,
+    "weight": 84,
     "network": {
       "id": 1,
       "name": "NBC",
@@ -4420,7 +4420,7 @@
     "rating": {
       "average": 7.7
     },
-    "weight": 95,
+    "weight": 94,
     "network": {
       "id": 14,
       "name": "TNT",
@@ -4561,7 +4561,7 @@
     "rating": {
       "average": 7.8
     },
-    "weight": 96,
+    "weight": 91,
     "network": {
       "id": 3,
       "name": "ABC",
@@ -4606,7 +4606,7 @@
     "rating": {
       "average": 5.5
     },
-    "weight": 94,
+    "weight": 95,
     "network": {
       "id": 55,
       "name": "VH1",
@@ -4751,7 +4751,7 @@
     "rating": {
       "average": 8.3
     },
-    "weight": 93,
+    "weight": 94,
     "network": {
       "id": 8,
       "name": "HBO",
@@ -4898,7 +4898,7 @@
     "rating": {
       "average": 6.5
     },
-    "weight": 87,
+    "weight": 81,
     "network": {
       "id": 21,
       "name": "El Rey Network",
@@ -4995,7 +4995,7 @@
     "rating": {
       "average": 7.9
     },
-    "weight": 98,
+    "weight": 99,
     "network": {
       "id": 4,
       "name": "FOX",
@@ -5331,7 +5331,7 @@
     "rating": {
       "average": 7.5
     },
-    "weight": 81,
+    "weight": 89,
     "network": {
       "id": 4,
       "name": "FOX",
@@ -5429,7 +5429,7 @@
     "rating": {
       "average": 7.9
     },
-    "weight": 94,
+    "weight": 93,
     "network": {
       "id": 25,
       "name": "Disney XD",
@@ -5478,7 +5478,7 @@
     "rating": {
       "average": 8.8
     },
-    "weight": 99,
+    "weight": 98,
     "network": {
       "id": 4,
       "name": "FOX",
@@ -5499,7 +5499,7 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/357/894990.jpg"
     },
     "summary": "<p>Sink your teeth into meaty drama and intrigue with <b>House</b>, FOX's take on mystery, where the villain is a medical malady and the hero is an irreverent, controversial doctor who trusts no one, least of all his patients.</p><p>Dr. Gregory House is a maverick physician who is devoid of bedside manner. While his behavior can border on antisocial, Dr. House thrives on the challenge of solving the medical puzzles that other doctors give up on. Together with his hand-picked team of young medical experts, he'll do whatever it takes in the race against the clock to solve the case.</p>",
-    "updated": 1704794557
+    "updated": 1721906390
   },
   {
     "id": 120,
@@ -5524,7 +5524,7 @@
     "rating": {
       "average": 7.3
     },
-    "weight": 90,
+    "weight": 89,
     "network": null,
     "externals": {
       "tvrage": 37044,
@@ -5564,7 +5564,7 @@
     "rating": {
       "average": 7.9
     },
-    "weight": 96,
+    "weight": 97,
     "network": {
       "id": 5,
       "name": "The CW",
@@ -5660,7 +5660,7 @@
     "rating": {
       "average": 7.2
     },
-    "weight": 93,
+    "weight": 94,
     "network": {
       "id": 2,
       "name": "CBS",
@@ -5708,7 +5708,7 @@
     "rating": {
       "average": 7.1
     },
-    "weight": 65,
+    "weight": 49,
     "network": {
       "id": 3,
       "name": "ABC",
@@ -5756,7 +5756,7 @@
     "rating": {
       "average": 7.7
     },
-    "weight": 94,
+    "weight": 92,
     "network": {
       "id": 2,
       "name": "CBS",
@@ -5853,7 +5853,7 @@
     "rating": {
       "average": 7.4
     },
-    "weight": 92,
+    "weight": 90,
     "network": {
       "id": 5,
       "name": "The CW",
@@ -5900,7 +5900,7 @@
     "rating": {
       "average": 5.9
     },
-    "weight": 63,
+    "weight": 64,
     "network": {
       "id": 1,
       "name": "NBC",
@@ -6092,7 +6092,7 @@
     "rating": {
       "average": 8.3
     },
-    "weight": 97,
+    "weight": 98,
     "network": {
       "id": 2,
       "name": "CBS",
@@ -6431,7 +6431,7 @@
     "rating": {
       "average": 6.9
     },
-    "weight": 66,
+    "weight": 67,
     "network": {
       "id": 8,
       "name": "HBO",
@@ -6525,7 +6525,7 @@
     "rating": {
       "average": 8.4
     },
-    "weight": 95,
+    "weight": 96,
     "network": {
       "id": 8,
       "name": "HBO",
@@ -6667,7 +6667,7 @@
     "rating": {
       "average": 7.9
     },
-    "weight": 92,
+    "weight": 93,
     "network": {
       "id": 9,
       "name": "Showtime",
@@ -6715,7 +6715,7 @@
     "rating": {
       "average": 7.9
     },
-    "weight": 91,
+    "weight": 92,
     "network": {
       "id": 9,
       "name": "Showtime",
@@ -6762,7 +6762,7 @@
     "rating": {
       "average": 7.1
     },
-    "weight": 85,
+    "weight": 90,
     "network": {
       "id": 9,
       "name": "Showtime",
@@ -6811,7 +6811,7 @@
     "rating": {
       "average": 7.4
     },
-    "weight": 94,
+    "weight": 96,
     "network": {
       "id": 9,
       "name": "Showtime",
@@ -6907,7 +6907,7 @@
     "rating": {
       "average": 8.4
     },
-    "weight": 97,
+    "weight": 96,
     "network": {
       "id": 8,
       "name": "HBO",
@@ -6956,7 +6956,7 @@
     "rating": {
       "average": 8.1
     },
-    "weight": 93,
+    "weight": 90,
     "network": {
       "id": 9,
       "name": "Showtime",
@@ -7001,7 +7001,7 @@
     "rating": {
       "average": null
     },
-    "weight": 45,
+    "weight": 64,
     "network": {
       "id": 4,
       "name": "FOX",
@@ -7196,7 +7196,7 @@
     "rating": {
       "average": 8.5
     },
-    "weight": 96,
+    "weight": 95,
     "network": {
       "id": 13,
       "name": "FX",
@@ -7293,7 +7293,7 @@
     "rating": {
       "average": 6.5
     },
-    "weight": 95,
+    "weight": 93,
     "network": {
       "id": 1,
       "name": "NBC",
@@ -7440,7 +7440,7 @@
     "rating": {
       "average": 8.0
     },
-    "weight": 67,
+    "weight": 81,
     "network": {
       "id": 8,
       "name": "HBO",
@@ -7489,7 +7489,7 @@
     "rating": {
       "average": 8.0
     },
-    "weight": 87,
+    "weight": 86,
     "network": {
       "id": 4,
       "name": "FOX",
@@ -7538,7 +7538,7 @@
     "rating": {
       "average": 8.6
     },
-    "weight": 98,
+    "weight": 99,
     "network": {
       "id": 19,
       "name": "Cinemax",
@@ -7684,7 +7684,7 @@
     "rating": {
       "average": 8.3
     },
-    "weight": 96,
+    "weight": 97,
     "network": {
       "id": 4,
       "name": "FOX",
@@ -7964,7 +7964,7 @@
     "rating": {
       "average": 8.2
     },
-    "weight": 96,
+    "weight": 97,
     "network": {
       "id": 1,
       "name": "NBC",
@@ -8099,7 +8099,7 @@
     "rating": {
       "average": 7.6
     },
-    "weight": 98,
+    "weight": 97,
     "network": {
       "id": 26,
       "name": "Freeform",
@@ -8148,7 +8148,7 @@
     "rating": {
       "average": 8.0
     },
-    "weight": 86,
+    "weight": 81,
     "network": {
       "id": 27,
       "name": "Nickelodeon",
@@ -8343,7 +8343,7 @@
     "rating": {
       "average": 8.4
     },
-    "weight": 96,
+    "weight": 97,
     "network": {
       "id": 17,
       "name": "STARZ",
@@ -8477,7 +8477,7 @@
     "rating": {
       "average": 6.9
     },
-    "weight": 90,
+    "weight": 87,
     "network": {
       "id": 28,
       "name": "NewsNation",
@@ -8525,7 +8525,7 @@
     "rating": {
       "average": 8.0
     },
-    "weight": 87,
+    "weight": 90,
     "network": {
       "id": 20,
       "name": "AMC",
@@ -8573,7 +8573,7 @@
     "rating": {
       "average": 6.7
     },
-    "weight": 95,
+    "weight": 93,
     "network": {
       "id": 2,
       "name": "CBS",
@@ -8720,7 +8720,7 @@
     "rating": {
       "average": 7.1
     },
-    "weight": 80,
+    "weight": 91,
     "network": {
       "id": 1,
       "name": "NBC",
@@ -8814,7 +8814,7 @@
     "rating": {
       "average": 6.5
     },
-    "weight": 88,
+    "weight": 90,
     "network": {
       "id": 8,
       "name": "HBO",
@@ -8910,7 +8910,7 @@
     "rating": {
       "average": 8.2
     },
-    "weight": 93,
+    "weight": 94,
     "network": {
       "id": 1,
       "name": "NBC",
@@ -8959,7 +8959,7 @@
     "rating": {
       "average": 8.0
     },
-    "weight": 95,
+    "weight": 94,
     "network": {
       "id": 29,
       "name": "A&E",
@@ -9008,7 +9008,7 @@
     "rating": {
       "average": 7.0
     },
-    "weight": 91,
+    "weight": 90,
     "network": {
       "id": 4,
       "name": "FOX",
@@ -9056,7 +9056,7 @@
     "rating": {
       "average": 8.0
     },
-    "weight": 63,
+    "weight": 62,
     "network": null,
     "externals": {
       "tvrage": 32724,
@@ -9192,7 +9192,7 @@
     "rating": {
       "average": 7.4
     },
-    "weight": 90,
+    "weight": 89,
     "network": {
       "id": 5,
       "name": "The CW",
@@ -9289,7 +9289,7 @@
     "rating": {
       "average": 7.7
     },
-    "weight": 96,
+    "weight": 97,
     "network": {
       "id": 4,
       "name": "FOX",
@@ -9436,7 +9436,7 @@
     "rating": {
       "average": 7.2
     },
-    "weight": 89,
+    "weight": 93,
     "network": {
       "id": 30,
       "name": "USA Network",
@@ -9534,7 +9534,7 @@
     "rating": {
       "average": 8.2
     },
-    "weight": 98,
+    "weight": 97,
     "network": {
       "id": 16,
       "name": "Syfy",
@@ -9579,7 +9579,7 @@
     "rating": {
       "average": null
     },
-    "weight": 38,
+    "weight": 39,
     "network": {
       "id": 17,
       "name": "STARZ",
@@ -9628,7 +9628,7 @@
     "rating": {
       "average": 6.6
     },
-    "weight": 85,
+    "weight": 79,
     "network": {
       "id": 17,
       "name": "STARZ",
@@ -9677,7 +9677,7 @@
     "rating": {
       "average": 8.2
     },
-    "weight": 100,
+    "weight": 99,
     "network": {
       "id": 12,
       "name": "BBC One",
@@ -9873,7 +9873,7 @@
     "rating": {
       "average": 8.0
     },
-    "weight": 91,
+    "weight": 94,
     "network": {
       "id": 31,
       "name": "Audience Network",
@@ -10018,7 +10018,7 @@
     "rating": {
       "average": 6.3
     },
-    "weight": 49,
+    "weight": 64,
     "network": {
       "id": 2,
       "name": "CBS",
@@ -10213,7 +10213,7 @@
     "rating": {
       "average": 8.0
     },
-    "weight": 98,
+    "weight": 97,
     "network": {
       "id": 33,
       "name": "SundanceTV",
@@ -10358,7 +10358,7 @@
     "rating": {
       "average": 7.2
     },
-    "weight": 80,
+    "weight": 79,
     "network": {
       "id": 26,
       "name": "Freeform",
@@ -10502,7 +10502,7 @@
     "rating": {
       "average": 7.3
     },
-    "weight": 86,
+    "weight": 85,
     "network": {
       "id": 3,
       "name": "ABC",
@@ -10597,7 +10597,7 @@
     "rating": {
       "average": 7.1
     },
-    "weight": 64,
+    "weight": 88,
     "network": {
       "id": 1,
       "name": "NBC",
@@ -10742,7 +10742,7 @@
     "rating": {
       "average": 7.4
     },
-    "weight": 81,
+    "weight": 85,
     "network": {
       "id": 1,
       "name": "NBC",
@@ -10791,7 +10791,7 @@
     "rating": {
       "average": 6.8
     },
-    "weight": 85,
+    "weight": 84,
     "network": {
       "id": 3,
       "name": "ABC",
@@ -10838,7 +10838,7 @@
     "rating": {
       "average": 7.3
     },
-    "weight": 63,
+    "weight": 62,
     "network": {
       "id": 1,
       "name": "NBC",
@@ -10984,7 +10984,7 @@
     "rating": {
       "average": 6.4
     },
-    "weight": 62,
+    "weight": 84,
     "network": {
       "id": 14,
       "name": "TNT",
@@ -11031,7 +11031,7 @@
     "rating": {
       "average": 6.4
     },
-    "weight": 93,
+    "weight": 95,
     "network": {
       "id": 13,
       "name": "FX",
@@ -11215,7 +11215,7 @@
     "rating": {
       "average": 7.6
     },
-    "weight": 80,
+    "weight": 85,
     "network": {
       "id": 32,
       "name": "TBS",
@@ -11263,7 +11263,7 @@
     "rating": {
       "average": 7.2
     },
-    "weight": 91,
+    "weight": 92,
     "network": {
       "id": 36,
       "name": "CBC",

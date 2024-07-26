@@ -22,7 +22,7 @@ namespace TvMazeApi.Controllers
             _showBL = new ShowBL(env);
         }
 
-        [HttpPut]
+        [HttpGet]
         public async Task<IActionResult> Get()
         {
             await _showBL.ActualizarTvShowsAsync();

@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.Mvc.Testing;
 using TvMazeApi;
 using Microsoft.VisualStudio.TestPlatform.TestHost;
 using Microsoft.AspNetCore.Hosting;
+using System.Net.Http.Json;
+using System.Text;
 
 
 namespace TestUnitProyect
@@ -39,14 +41,34 @@ namespace TestUnitProyect
         [TestMethod]
         public void GetApiPeopleSucces()
         {
-
             var requestUrl = "/api/People";
-
             var response = _client.GetAsync(requestUrl).Result;
-
             response.EnsureSuccessStatusCode();
             var responseString = response.Content.ReadAsStringAsync().Result;
             Assert.IsNotNull(responseString);
+        }
+
+        [TestMethod]
+        public async Task JobPeople()
+        {
+            var requestUrl = "/api/JobPeople";
+            _client.DefaultRequestHeaders.Add("x-api-key", "TvMaze*!$"); 
+            var response = await _client.GetAsync(requestUrl);
+            response.EnsureSuccessStatusCode(); 
+            var responseString = await response.Content.ReadAsStringAsync();
+            Assert.AreEqual("Job ejecutado correctamente.", responseString);
+        }
+
+        [TestMethod]
+        public async Task JobTvShows()
+        {
+            var requestUrl = "/api/JobTvShow";
+            _client.DefaultRequestHeaders.Add("x-api-key", "TvMaze*!$");
+            var response = await _client.GetAsync(requestUrl);
+
+            response.EnsureSuccessStatusCode();
+            var responseString = await response.Content.ReadAsStringAsync();
+            Assert.AreEqual("Job ejecutado correctamente.", responseString);
         }
     }
 }

@@ -1955,7 +1955,7 @@
       "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/514/1287243.jpg",
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/514/1287243.jpg"
     },
-    "updated": 1721669496,
+    "updated": 1721904578,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/people/93"
@@ -4795,7 +4795,7 @@
     "deathday": null,
     "gender": "Male",
     "image": null,
-    "updated": 1721357682,
+    "updated": 1721958961,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/people/237"
@@ -6129,7 +6129,7 @@
       "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/2/6891.jpg",
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/2/6891.jpg"
     },
-    "updated": 1721258954,
+    "updated": 1721918577,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/people/299"
@@ -8129,7 +8129,7 @@
       "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/104/260097.jpg",
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/104/260097.jpg"
     },
-    "updated": 1718884243,
+    "updated": 1721904674,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/people/393"
@@ -10414,15 +10414,19 @@
     "id": 503,
     "url": "https://www.tvmaze.com/people/503/tommy-europe",
     "name": "Tommy Europe",
-    "country": null,
+    "country": {
+      "name": "Canada",
+      "code": "CA",
+      "timezone": "America/Halifax"
+    },
     "birthday": null,
     "deathday": null,
     "gender": "Male",
     "image": {
-      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/3/7748.jpg",
-      "original": "https://static.tvmaze.com/uploads/images/original_untouched/3/7748.jpg"
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/528/1322074.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/528/1322074.jpg"
     },
-    "updated": 1721228967,
+    "updated": 1721922364,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/people/503"
@@ -11829,7 +11833,7 @@
       "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/1/3454.jpg",
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/1/3454.jpg"
     },
-    "updated": 1714667698,
+    "updated": 1721905217,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/people/571"
