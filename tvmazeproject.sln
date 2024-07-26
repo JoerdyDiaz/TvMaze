@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TvMazeApi", "TvMazeApi\TvMa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CapaServicios", "CapaServicios\CapaServicios.csproj", "{1EA08A49-9FB9-4CB6-96CA-BE5CDB0EF445}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaNegocio", "CapaNegocio\CapaNegocio.csproj", "{2E0F8951-D1E7-4416-9C39-590061A93E4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CapaNegocio", "CapaNegocio\CapaNegocio.csproj", "{2E0F8951-D1E7-4416-9C39-590061A93E4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUnitProyect", "TestUnitProyect\TestUnitProyect.csproj", "{223A5B12-69C8-4DD9-8C06-802207A171E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{2E0F8951-D1E7-4416-9C39-590061A93E4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E0F8951-D1E7-4416-9C39-590061A93E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E0F8951-D1E7-4416-9C39-590061A93E4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{223A5B12-69C8-4DD9-8C06-802207A171E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{223A5B12-69C8-4DD9-8C06-802207A171E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{223A5B12-69C8-4DD9-8C06-802207A171E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{223A5B12-69C8-4DD9-8C06-802207A171E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
