@@ -36,6 +36,8 @@ namespace TestUnitProyect
             Assert.AreEqual("Job ejecutado correctamente.", responseString);
         }
 
+
+
         [TestMethod]
         public async Task JobTvShowsSuccessStatusCode()
         {
@@ -46,6 +48,34 @@ namespace TestUnitProyect
             response.EnsureSuccessStatusCode();
             var responseString = await response.Content.ReadAsStringAsync();
             Assert.AreEqual("Job ejecutado correctamente.", responseString);
+        }
+
+        [TestMethod]
+        public async Task JobPeopleNoAutorizado()
+        {
+
+            var requestUrl = "/api/JobPeople";
+            _client.DefaultRequestHeaders.Add("x-api-key", "TvMaze*!$$%#$%"); // API KEY erroneo
+
+            HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Get, requestUrl);
+
+            HttpResponseMessage response = await _client.SendAsync(request);
+
+            Assert.AreEqual(System.Net.HttpStatusCode.Unauthorized, response.StatusCode);
+        }
+
+        [TestMethod]
+        public async Task JobTvShowNoAutorizado()
+        {
+
+            var requestUrl = "/api/JobTvShow";
+            _client.DefaultRequestHeaders.Add("x-api-key", "TvMaze*!$$%#$%"); // API KEY erroneo
+
+            HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Get, requestUrl);
+
+            HttpResponseMessage response = await _client.SendAsync(request);
+
+            Assert.AreEqual(System.Net.HttpStatusCode.Unauthorized, response.StatusCode);
         }
 
         [TestMethod]
