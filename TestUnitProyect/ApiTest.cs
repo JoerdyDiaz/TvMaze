@@ -26,6 +26,29 @@ namespace TestUnitProyect
         }
 
         [TestMethod]
+        public async Task JobPeopleSuccessStatusCode()
+        {
+            var requestUrl = "/api/JobPeople";
+            _client.DefaultRequestHeaders.Add("x-api-key", "TvMaze*!$");
+            var response = await _client.GetAsync(requestUrl);
+            response.EnsureSuccessStatusCode();
+            var responseString = await response.Content.ReadAsStringAsync();
+            Assert.AreEqual("Job ejecutado correctamente.", responseString);
+        }
+
+        [TestMethod]
+        public async Task JobTvShowsSuccessStatusCode()
+        {
+            var requestUrl = "/api/JobTvShow";
+            _client.DefaultRequestHeaders.Add("x-api-key", "TvMaze*!$");
+            var response = await _client.GetAsync(requestUrl);
+
+            response.EnsureSuccessStatusCode();
+            var responseString = await response.Content.ReadAsStringAsync();
+            Assert.AreEqual("Job ejecutado correctamente.", responseString);
+        }
+
+        [TestMethod]
         public void GetApiShowSuccess()
         {
 
@@ -48,27 +71,6 @@ namespace TestUnitProyect
             Assert.IsNotNull(responseString);
         }
 
-        [TestMethod]
-        public async Task JobPeople()
-        {
-            var requestUrl = "/api/JobPeople";
-            _client.DefaultRequestHeaders.Add("x-api-key", "TvMaze*!$"); 
-            var response = await _client.GetAsync(requestUrl);
-            response.EnsureSuccessStatusCode(); 
-            var responseString = await response.Content.ReadAsStringAsync();
-            Assert.AreEqual("Job ejecutado correctamente.", responseString);
-        }
-
-        [TestMethod]
-        public async Task JobTvShows()
-        {
-            var requestUrl = "/api/JobTvShow";
-            _client.DefaultRequestHeaders.Add("x-api-key", "TvMaze*!$");
-            var response = await _client.GetAsync(requestUrl);
-
-            response.EnsureSuccessStatusCode();
-            var responseString = await response.Content.ReadAsStringAsync();
-            Assert.AreEqual("Job ejecutado correctamente.", responseString);
-        }
+       
     }
 }
