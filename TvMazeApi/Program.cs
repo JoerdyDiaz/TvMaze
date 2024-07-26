@@ -9,16 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 
-// Clave API para validaci�n
-//var apiKey = "TvMaze*!$";
-
-// A�adir el filtro al contenedor de dependencias
-//builder.Services.AddScoped<ApiKeyAuthFilter>(provider => new ApiKeyAuthFilter(apiKey));
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-
 
 //// Configure Swagger
 builder.Services.AddSwaggerGen(c =>
@@ -34,7 +26,6 @@ builder.Services.AddSwaggerGen(c =>
         Scheme = "ApiKeyScheme"
     });
 
-    // Require the header for the specified controllers
     c.AddSecurityRequirement(new OpenApiSecurityRequirement{
         {
             new OpenApiSecurityScheme
@@ -57,8 +48,6 @@ builder.Services.AddSwaggerGen(c =>
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
-
-//var env = app.Services.GetRequiredService<IWebHostEnvironment>();
 
 app.UseMiddleware<ApiKeyMiddleware>();
 
@@ -93,4 +82,5 @@ app.MapControllers();
 app.Run();
 
 
+public partial class Program { }
 

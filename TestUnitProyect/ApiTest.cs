@@ -16,10 +16,6 @@ namespace TestUnitProyect
         private readonly HttpClient _client;
 
         private readonly WebApplicationFactory<Program> _factory;
-        //public ApiTest(WebApplicationFactory<Program> factory)
-        //{
-        //    _client = factory.CreateClient();
-        //}
 
         public ApiTest()
         {
@@ -28,15 +24,28 @@ namespace TestUnitProyect
         }
 
         [TestMethod]
-        public void Get_ReturnsSuccessStatusCode()
+        public void GetApiShowSuccess()
         {
 
-            var requestUrl = "/api/Show"; 
+            var requestUrl = "/api/Show";
 
-            var response =  _client.GetAsync(requestUrl).Result;
+            var response = _client.GetAsync(requestUrl).Result;
 
-            response.EnsureSuccessStatusCode(); 
-            var responseString =  response.Content.ReadAsStringAsync().Result;
+            response.EnsureSuccessStatusCode();
+            var responseString = response.Content.ReadAsStringAsync().Result;
+            Assert.IsNotNull(responseString);
+        }
+
+        [TestMethod]
+        public void GetApiPeopleSucces()
+        {
+
+            var requestUrl = "/api/People";
+
+            var response = _client.GetAsync(requestUrl).Result;
+
+            response.EnsureSuccessStatusCode();
+            var responseString = response.Content.ReadAsStringAsync().Result;
             Assert.IsNotNull(responseString);
         }
     }
