@@ -18,7 +18,7 @@ Este repositorio contiene una solución con cinco proyectos distintos:
 	Contiene las pruebas unitarias para validar el comportamiento de los servicios expuestos a través del proyecto Web Api.
 	
 
-	Decisiones Arquitectónicas:
+	# Decisiones Arquitectónicas:
 	Separación de Capas
 	La solución se divide en capas para mantener una arquitectura limpia y facilitar el mantenimiento y escalabilidad del sistema:
 
