@@ -36,5 +36,5 @@ La Web API está desplegada en Azure para aprovechar la escalabilidad, seguridad
 	
 Requisitos Previos
 -	.NET 8 SDK instalado.
--	Visual Studio 2022 o superior o VS Code.
+-	Visual Studio 2022 o superior /  VS Code.
 -	Una cuenta de Azure para desplegar la API.
