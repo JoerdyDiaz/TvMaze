@@ -8,7 +8,6 @@ namespace TvMazeApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    //[ApiKeyRequired]
     public class ShowController : ControllerBase
     {
         public readonly ShowBL _showBL ;
@@ -28,16 +27,42 @@ namespace TvMazeApi.Controllers
             return _showBL.ObtenerShows();
         }
 
+
         [HttpGet("{id}")]
-        public Show Get(int id)
+        public IActionResult Get(int id)
         {
-            return  _showBL.ObtenerShowByID(id);
+            var objeto = _showBL.ObtenerShowByID(id);
+            if (objeto != null)
+            {
+                return Ok(objeto);
+            }
+            else
+            {
+                return NotFound();
+            }
         }
 
         [HttpGet("Delete/{id}")]
-        public bool Delete(int id)
+        public IActionResult Delete(int id)
         {
-            return _showBL.BorrarShowByID(id);
+            bool flg=  _showBL.BorrarShowByID(id);
+            if (flg)
+            {
+                return Ok(flg);
+            }
+            else
+            {
+                return NotFound();
+            }
         }
+
+
+        [HttpPut("LimpiarTvShow")]
+        public bool LimpiarLista()
+        {
+            return _showBL.LimpiarLista();
+        }
+
+
     }
 }

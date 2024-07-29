@@ -75,12 +75,11 @@ namespace CapaDatos.ModelsExtented
             try
             {
                 List<Show> show = GetAll();
-                return show.Where(x=> x.id.Equals(showID)).FirstOrDefault();
+                return  show.Where(x=> x.id.Equals(showID)).FirstOrDefault()  ;
             }
             catch (Exception ex)
             {
                 return null;
-
             }
         }
 

@@ -78,8 +78,6 @@ namespace CapaDatos.ModelsExtented
 
                 List<People> listPeople = GetAll();
                  return listPeople.SingleOrDefault(person => person.id == peopleId);
-
-
         }
         public bool DeleteById(int peopleid)
         {

@@ -23,20 +23,42 @@ namespace TvMazeApi.Controllers
         [HttpGet(Name = "People")]
         public IEnumerable<People> Get()
         {
-
             return peopleBL.ObtenerPeople();
         }
 
+
         [HttpGet("{id}")]
-        public People Get(int id)
+        public IActionResult Get(int id)
         {
-            return peopleBL.ObtenerPeopleById(id);
+            var objeto = peopleBL.ObtenerPeopleById(id);
+            if (objeto != null)
+            {
+                return Ok(objeto);
+            }
+            else
+            {
+                return NotFound();
+            }
         }
 
         [HttpGet("Delete/{id}")]
-        public bool Delete(int id)
+        public IActionResult Delete(int id)
         {
-            return peopleBL.BorrarPeopleByID(id);
+            var objeto = peopleBL.BorrarPeopleByID(id);
+            if (objeto)
+            {
+                return Ok(objeto);
+            }
+            else
+            {
+                return NotFound();
+            }
+        }
+
+        [HttpPut("LimpiarPeople")]
+        public bool LimpiarLista()
+        {
+            return peopleBL.LimpiarLista();
         }
     }
 }
