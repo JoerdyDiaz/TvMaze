@@ -12,7 +12,7 @@ Este repositorio contiene una solución con cinco proyectos distintos:
 	Provee servicios que pueden ser consumidos por la API. Actúa como un intermediario entre la capa de negocio y la API.
 	
 -	Web API (Proyecto Web).
-    	Es el proyecto que expone los servicios a través de HTTP. Desplegado en Azure. (Es el proyecto debe configurarse por defecto)
+    	Es el proyecto que expone los servicios a través de HTTP. Desplegado en Azure. (Es el proyecto que debe configurarse por defecto)
 	
 -	Pruebas Unitarias (Proyecto de Pruebas).
 	Contiene las pruebas unitarias para validar el comportamiento de los servicios expuestos a través del proyecto Web Api.
