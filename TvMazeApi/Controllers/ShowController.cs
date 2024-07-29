@@ -42,7 +42,7 @@ namespace TvMazeApi.Controllers
             }
         }
 
-        [HttpGet("Delete/{id}")]
+        [HttpDelete("Delete/{id}")]
         public IActionResult Delete(int id)
         {
             bool flg=  _showBL.BorrarShowByID(id);
@@ -57,7 +57,7 @@ namespace TvMazeApi.Controllers
         }
 
 
-        [HttpPut("LimpiarTvShow")]
+        [HttpDelete("LimpiarTvShow")]
         public bool LimpiarLista()
         {
             return _showBL.LimpiarLista();

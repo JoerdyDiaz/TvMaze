@@ -41,7 +41,7 @@ namespace TvMazeApi.Controllers
             }
         }
 
-        [HttpGet("Delete/{id}")]
+        [HttpDelete("Delete/{id}")]
         public IActionResult Delete(int id)
         {
             var objeto = peopleBL.BorrarPeopleByID(id);
@@ -55,7 +55,7 @@ namespace TvMazeApi.Controllers
             }
         }
 
-        [HttpPut("LimpiarPeople")]
+        [HttpDelete("LimpiarPeople")]
         public bool LimpiarLista()
         {
             return peopleBL.LimpiarLista();
