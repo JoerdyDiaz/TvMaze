@@ -3,7 +3,7 @@
 Este repositorio contiene una solución con cinco proyectos distintos:
 
 -	Capa de Datos (Librería de Clases)
-    Contiene la capa de acceso a datos. Aquí se manejan las operaciones CRUD y manipulación del los archivos Json donde se guarda la información que devuelve la API externa.
+    Contiene la capa de acceso a datos. Aquí se manejan las operaciones CRUD y manipulación de los archivos .Json donde se guarda la información que devuelve la API externa.
 	
 -	Capa de Negocio (Librería de Clases).
 	Implementa la lógica de negocio. Aquí se aplican las reglas y procesos específicos del dominio.
