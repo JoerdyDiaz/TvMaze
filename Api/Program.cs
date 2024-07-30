@@ -1,11 +1,9 @@
+using Api.FilterAuthorization;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.OpenApi.Models;
-using TvMazeApi.FilterAuthorization;
-
 
 
 var builder = WebApplication.CreateBuilder(args);
-
 // Add services to the container.
 
 

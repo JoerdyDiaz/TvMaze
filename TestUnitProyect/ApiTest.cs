@@ -2,7 +2,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.Testing;
-using TvMazeApi;
+//using TvMazeApi;
 using Microsoft.VisualStudio.TestPlatform.TestHost;
 using Microsoft.AspNetCore.Hosting;
 using System.Net.Http.Json;

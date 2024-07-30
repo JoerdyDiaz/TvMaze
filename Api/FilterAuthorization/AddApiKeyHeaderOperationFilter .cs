@@ -1,7 +1,7 @@
 ﻿using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace TvMazeApi.FilterAuthorization
+namespace Api.FilterAuthorization
 {
     public class AddApiKeyHeaderOperationFilter : IOperationFilter
     {

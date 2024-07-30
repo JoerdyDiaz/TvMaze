@@ -1,9 +1,9 @@
 ﻿using CapaNegocio;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using TvMazeApi.FilterAuthorization;
+using Api.FilterAuthorization;
 
-namespace TvMazeApi.Controllers
+namespace Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Configuration;
 using System;
 
-namespace TvMazeApi.FilterAuthorization
+namespace Api.FilterAuthorization
 {
     public class ApiKeyMiddleware 
     {

@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using CapaDatos.Models;
 using CapaNegocio;
-using TvMazeApi.FilterAuthorization;
+using Api.FilterAuthorization;
 
 
 namespace TvMazeApi.Controllers
