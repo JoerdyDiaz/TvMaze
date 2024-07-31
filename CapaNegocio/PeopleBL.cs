@@ -14,33 +14,10 @@ namespace CapaNegocio
     {
 
         private  IHostingEnvironment _env;
-
         public PeopleBL(IHostingEnvironment env)
         {
             _env = env;
         }
-
-        public async Task ActualizarPeoplesync()
-        {
-            TvMazePeopleService _tvMazePeopleService = new TvMazePeopleService();
-            try
-            {
-                List<People> PeopleList = await _tvMazePeopleService.ObtenerPeopleAsync();
-                if (PeopleList != null && PeopleList.Count > 0)
-                {
-                    LimpiarLista();
-                    foreach (var obj in PeopleList)
-                    {
-                        Agregar(obj);
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-
-            }
-        }
-
 
         public List<People> ObtenerPeople()
         {

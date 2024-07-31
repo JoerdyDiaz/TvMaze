@@ -1,4 +1,5 @@
 using Api.FilterAuthorization;
+using CapaServicios;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.OpenApi.Models;
 
@@ -9,6 +10,11 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
+
+builder.Services.Configure<ApiExternaSettings>(builder.Configuration.GetSection("ApiExternaSettings"));
+builder.Services.AddHttpClient();
+builder.Services.AddScoped<ITvMazePeopleService, TvMazePeopleService>();
+builder.Services.AddScoped<ITvMazeShowService, TvMazeShowService>();
 
 //// Configure Swagger
 builder.Services.AddSwaggerGen(c =>

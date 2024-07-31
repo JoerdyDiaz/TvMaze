@@ -16,15 +16,14 @@ namespace TvMazeApi.Controllers
 
         public ShowController(Microsoft.AspNetCore.Hosting.IHostingEnvironment env)
         {
-            _env = env;
             _showBL = new ShowBL(env);
         }
 
         [HttpGet(Name = "Show")]
-        public IEnumerable<Show> Get()
+        public IActionResult Get()
         {
             
-            return _showBL.ObtenerShows();
+            return Ok(_showBL.ObtenerShows());
         }
 
 
@@ -62,7 +61,5 @@ namespace TvMazeApi.Controllers
         {
             return _showBL.LimpiarLista();
         }
-
-
     }
 }

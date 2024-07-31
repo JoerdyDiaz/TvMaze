@@ -9,33 +9,12 @@ namespace CapaNegocio
     {
 
         private IHostingEnvironment _env;
-
         public ShowBL(IHostingEnvironment env)
         {
             _env = env;
 
         }
-
-        public async Task ActualizarTvShowsAsync()
-        {
-            TvMazeShowService _tvMazeService = new TvMazeShowService();
-            try
-            {
-                List<Show> tvShows = await _tvMazeService.ObtenerTvShowsAsync();
-                if (tvShows != null && tvShows.Count > 0)
-                {
-                    LimpiarLista();
-                    foreach (var show in tvShows)
-                    {
-                        Agregar(show);
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-
-            }
-        }
+ 
         public List<Show> ObtenerShows()
         {
             List<Show> listShow = new List<Show>();

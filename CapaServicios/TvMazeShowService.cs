@@ -1,4 +1,5 @@
 ﻿using CapaDatos.Models;
+using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -8,21 +9,22 @@ using System.Threading.Tasks;
 
 namespace CapaServicios
 {
-    public class TvMazeShowService
+    public class TvMazeShowService: ITvMazeShowService
     {
         private readonly HttpClient _httpClient;
+        private readonly ApiExternaSettings _apiSettings;
 
-        private readonly string url = "http://api.tvmaze.com/"; //"//ConfigurationManager.AppSettings["UrlApiTvMaze"];
-        public TvMazeShowService()
+        public TvMazeShowService(HttpClient httpClient, IOptions<ApiExternaSettings> apiSettings)
         {
-            _httpClient = new HttpClient { BaseAddress = new Uri(url) };
+            _httpClient = httpClient;
+            _apiSettings = apiSettings.Value;
         }
 
         public async Task<List<Show>> ObtenerTvShowsAsync()
         { 
             try
             {
-                var response = await _httpClient.GetAsync("shows");
+                var response = await _httpClient.GetAsync($"{_apiSettings.BaseUrl}{_apiSettings.EndpointShow}");
                 response.EnsureSuccessStatusCode();
                 var content = await response.Content.ReadAsStringAsync();
                 return JsonConvert.DeserializeObject<List<Show>>(content);

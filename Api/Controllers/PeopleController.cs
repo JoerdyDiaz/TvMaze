@@ -16,14 +16,13 @@ namespace TvMazeApi.Controllers
 
         public PeopleController(Microsoft.AspNetCore.Hosting.IHostingEnvironment env)
         {
-            _env = env;
             peopleBL = new PeopleBL(env);
         }
 
         [HttpGet(Name = "People")]
-        public IEnumerable<People> Get()
+        public IActionResult Get()
         {
-            return peopleBL.ObtenerPeople();
+            return Ok(peopleBL.ObtenerPeople());
         }
 
 
