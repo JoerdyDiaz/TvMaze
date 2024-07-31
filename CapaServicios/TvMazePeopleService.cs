@@ -13,7 +13,7 @@ namespace CapaServicios
     {
         private readonly HttpClient _httpClient;
 
-        private readonly string url = "http://api.tvmaze.com/"; // ConfigurationManager.AppSettings["UrlApiTvMaze"];
+        private readonly string url = "http://api.tvmaze.com/";
         public TvMazePeopleService()
         {
             _httpClient = new HttpClient { BaseAddress = new Uri(url) };

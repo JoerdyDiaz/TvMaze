@@ -25,7 +25,7 @@ namespace CapaServicios
                 var response = await _httpClient.GetAsync("shows");
                 response.EnsureSuccessStatusCode();
                 var content = await response.Content.ReadAsStringAsync();
-                return  JsonConvert.DeserializeObject<List<Show>>(content);
+                return JsonConvert.DeserializeObject<List<Show>>(content);
             }
             catch (Exception ex)
             {

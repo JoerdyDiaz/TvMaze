@@ -2,7 +2,6 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.Testing;
-//using TvMazeApi;
 using Microsoft.VisualStudio.TestPlatform.TestHost;
 using Microsoft.AspNetCore.Hosting;
 using System.Net.Http.Json;
@@ -92,7 +91,7 @@ namespace TestUnitProyect
         }
 
         [TestMethod]
-        public void GetApiPeopleSucces()
+        public void GetApiPeopleSuccess()
         {
             var requestUrl = "/api/People";
             var response = _client.GetAsync(requestUrl).Result;
@@ -101,6 +100,27 @@ namespace TestUnitProyect
             Assert.IsNotNull(responseString);
         }
 
-       
+
+        [TestMethod]
+        public void GetApiPeopleByIdSuccess()
+        {
+            var requestUrl = "/api/People/1";
+            var response = _client.GetAsync(requestUrl).Result;
+            response.EnsureSuccessStatusCode();
+            var responseString = response.Content.ReadAsStringAsync().Result;
+            Assert.IsNotNull(responseString);
+        }
+
+        [TestMethod]
+        public void GetApiTvShowIdSuccess()
+        {
+            var requestUrl = "/api/Show/1";
+            var response = _client.GetAsync(requestUrl).Result;
+            response.EnsureSuccessStatusCode();
+            var responseString = response.Content.ReadAsStringAsync().Result;
+            Assert.IsNotNull(responseString);
+        }
+
+
     }
 }
