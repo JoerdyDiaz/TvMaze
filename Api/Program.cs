@@ -11,6 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 
+// inyección de dependencias
 builder.Services.Configure<ApiExternaSettings>(builder.Configuration.GetSection("ApiExternaSettings"));
 builder.Services.AddHttpClient();
 builder.Services.AddScoped<ITvMazePeopleService, TvMazePeopleService>();
