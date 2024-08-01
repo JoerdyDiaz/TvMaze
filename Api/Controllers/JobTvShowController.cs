@@ -30,10 +30,13 @@ namespace TvMazeApi.Controllers
             List<Show> ListShow =   await _dataService.ObtenerTvShowsAsync();
             if (ListShow != null && ListShow.Count > 0)
             {
-                _showBL.LimpiarLista();
                 foreach (var show in ListShow)
                 {
-                    _showBL.Agregar(show);
+                    var obj = _showBL.ObtenerShowByID(show.id);
+                    if (obj != null)
+                        _showBL.Modificar(show);
+                    else
+                        _showBL.Agregar(show);
                 }
             }
 

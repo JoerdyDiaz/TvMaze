@@ -40,6 +40,21 @@ namespace TvMazeApi.Controllers
             }
         }
 
+        [HttpPut]
+        public IActionResult Update(People people)
+        {
+            var objeto = peopleBL.ObtenerPeopleById(people.id);
+            if (objeto == null)
+            {
+                return NotFound();
+
+            }
+            else
+            {
+                return Ok(peopleBL.Modificar(people));
+            }
+        }
+
         [HttpDelete("Delete/{id}")]
         public IActionResult Delete(int id)
         {

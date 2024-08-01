@@ -42,6 +42,12 @@ namespace CapaNegocio
             return obj.Add(item);
         }
 
+        public bool Modificar(Show item)
+        {
+            ShowExtended obj = new ShowExtended(_env);
+            return obj.Update(item);
+        }
+
         public Show ObtenerShowByID(int showID)
         {
             ShowExtended obj = new ShowExtended(_env);

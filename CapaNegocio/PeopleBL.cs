@@ -46,6 +46,12 @@ namespace CapaNegocio
             return obj.Add(item);
         }
 
+        public bool Modificar(People item)
+        {
+            PeopleExtended obj = new PeopleExtended(_env);
+            return obj.Update(item);
+        }
+
         public People ObtenerPeopleById(int peopleId)
         {
             PeopleExtended obj = new PeopleExtended(_env);

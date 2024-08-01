@@ -28,11 +28,14 @@ namespace Api.Controllers
         {
             List<People> ListPeople =   await _dataService.ObtenerPeopleAsync();
             if (ListPeople != null && ListPeople.Count > 0)
-            {
-                _peopleBL.LimpiarLista();
+            {            
                 foreach (var people in ListPeople)
                 {
-                    _peopleBL.Agregar(people);
+                    var obj = _peopleBL.ObtenerPeopleById(people.id);
+                    if (obj == null)
+                        _peopleBL.Agregar(people);
+                    else
+                        _peopleBL.Modificar(people);
                 }
             }
 

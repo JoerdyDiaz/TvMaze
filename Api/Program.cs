@@ -19,7 +19,7 @@ builder.Services.AddScoped<ITvMazeShowService, TvMazeShowService>();
 //// Configure Swagger
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Tv Maze API", Version = "v2" });
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Tv Maze API", Version = "v1" });
 
     c.AddSecurityDefinition("ApiKey", new OpenApiSecurityScheme
     {
