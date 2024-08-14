@@ -26,8 +26,7 @@ Este repositorio contiene una solución con cinco proyectos distintos:
 -	Uso de Archivos JSON: Para evitar costos adicionales en Azure, se decidió utilizar archivos JSON para simular una base de datos. Esto permite realizar pruebas y   
   	desarrollos sin incurrir en gastos.
 - 	Capa de Negocio: La lógica de negocio se maneja aquí, permitiendo aplicar reglas de negocio y algoritmos específicos.
-- 	Capa de Servicios: Esta capa actúa como intermediaria y permite que las reglas de negocio se consuman a través de servicios, facilitando la reutilización y el 
-  	mantenimiento.
+- 	Capa de Servicios: Esta capa actúa como intermediaria y permite consumir la información expuesta por las APIS de terceros.
 - 	Web API: Expone los servicios a través de HTTP, permitiendo la interacción con clientes externos.
 	Pruebas Unitarias: Validan que cada componente individual funcione correctamente, asegurando la calidad del código.
 
